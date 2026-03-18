@@ -14,7 +14,7 @@ def loader():
     os.system('clear')
     try:
         import prince2_0_enc
-        prince2_0_enc.akash()
+        prince2_0_enc.so()
     except ImportError:
         print("\n\033[1;91m[!] Error: prince2_0_enc.cpython-312.so NOT FOUND!")
         sys.exit()
